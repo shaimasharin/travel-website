@@ -68,6 +68,8 @@
 h1{
     text-align: center;
     padding-bottom: 30px;
+    /* font-family: sans-serif;
+    font-weight: bold; */
 }
 .feature-img img{
     width: 100%;
@@ -150,7 +152,7 @@ h1{
 /* banner */
 
 .banner{
-    height: 80vh;
+    height: 100vh;
     background-image: url(images/banner2.jpg);
     background-position: center;
     background-size: cover;
@@ -237,4 +239,9 @@ h1{
 }
 .footer .copyright{
     text-align: center;
+}
+@media only screen and (max-width: 400px){
+    .header h1{
+        padding-top: 184px;
+    }
 }
