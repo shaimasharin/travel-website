@@ -152,7 +152,7 @@ h1{
 /* banner */
 
 .banner{
-    height: 100vh;
+    height: auto;
     background-image: url(images/banner2.jpg);
     background-position: center;
     background-size: cover;
